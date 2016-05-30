@@ -1,0 +1,16 @@
+--Copy github files into SRC and unzip into src of catkin
+--catkin_make
+--location: ~/catkin_ws/src/existing-code-master/launch
+--if this smessage occurs:
+	ResourceNotFound: pixart
+	ROS path [0]=/opt/ros/indigo/share/ros
+	ROS path [1]=/opt/ros/indigo/share
+	ROS path [2]=/opt/ros/indigo/stacks
+	
+	execute these commands:
+					/catkin_ws$ cd devel
+anusha@anusha-Lenovo-Yoga-500-14IBD:~/catkin_ws/devel$ source setup.bash
+anusha@anusha-Lenovo-Yoga-500-14IBD:~/catkin_ws/devel$ cd ..
+anusha@anusha-Lenovo-Yoga-500-14IBD:~/catkin_ws$ catkin_make
+
+
